@@ -1,2 +1,9 @@
-# 16-bit-RISC-processor
-A custom 16-bit RISC processor implemented in Verilog, featuring a pipelined architecture, ALU, register file, control unit, instruction memory, and data memory. Supports a minimal but efficient instruction set for educational CPU design and FPGA deployment.
+16-bit RISC Processor
+
+A custom 16-bit RISC processor implemented in Verilog, featuring a multi-cycle datapath and FSM-based control unit.
+
+Features
+16-bit datapath with ALU, register file, program counter, instruction decoder, and memory.
+Six-state FSM for sequential instruction execution.
+Supports arithmetic, logical, comparison, shift, load, and jump operations.
+RTL simulation, synthesis, and FPGA implementation using Xilinx Vivado.
